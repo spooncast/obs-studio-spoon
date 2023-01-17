@@ -1,23 +1,28 @@
 OBS Studio HTTP REST API<https://obsproject.com>
 ===================================
+
 REST API
+=======
 
 Request
+-------
+``POST URL : http://ip_address:9028``
 
-POST URL : http://ip_address:9028
 
+* Body JSON
 
-Body JSON
+``{"streamUrl" : "rtmp://12.32.11.99/sstted", "streamKey" : "23SDD2sss" }``
 
-{"streamUrl" : "rtmp://12.32.11.99/sstted", "streamKey" : "23SDD2sss" }
 
 Response
+--------
 
-Success
-{ "result" : "0" , "streamUrl" : "rtmp://111.222.333.444/sjiSJd91" , "streamKey" : "123qwer" }
+* Success
+``{ "result" : "0" , "streamUrl" : "rtmp://111.222.333.444/sjiSJd91" , "streamKey" : "123qwer" }``
 
-Error
-{ "result" : "1" }
+* Error
+``{ "result" : "1" }``
+
 
 
 What is OBS Studio?
