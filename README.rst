@@ -1,8 +1,14 @@
-OBS Studio HTTP REST API<https://obsproject.com>
-===================================
+OBS Studio HTTP  REST API for RTMP Streaming Setup
+==================================================
+In order to do RTMP broadcasting in OBS Studio, to solve the trouble of setting the stream URL and key every time, Rest API provides an interface to set these.
+When the Rest API is transmitted in the method defined below in the broadcasting application, it is automatically registered in the broadcasting settings.
 
-REST API
-=======
+It is implemented to build in both the Windows Visual studio environment and the macOS/Linux environment.
+
+Please email all questions and advice to 
+simon@spoonradio.co.
+
+
 
 Request
 -------
@@ -24,6 +30,7 @@ Response
 ``{ "result" : "1" }``
 
 
+----
 
 What is OBS Studio?
 -------------------
