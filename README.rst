@@ -24,7 +24,7 @@ Response
 --------
 
 * Success
-``{ "result" : "0" , "streamUrl" : "rtmp://111.222.333.444/sjiSJd91" , "streamKey" : "123qwer" }``
+``{ "result" : "0" , "streamUrl" : "rtmp://12.32.11.99/sstted" , "streamKey" : "23SDD2sss" }``
 
 * Error
 ``{ "result" : "1" }``
